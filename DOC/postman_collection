@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "d5029664-b525-429d-856f-6b5403a9e1a0",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46281659",
+		"_collection_link": "https://yousef-8658148.postman.co/workspace/yousef's-Workspace~d4840907-88e4-40cc-854a-e5877ff5da87/collection/46281659-d5029664-b525-429d-856f-6b5403a9e1a0?action=share&source=collection_link&creator=46281659"
+	},
+	"item": [
+		{
+			"name": "AccessVis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \r\n  \"folder\": \"578\",\r\n  \"file\": \"57840\",\r\n  \"column\": \"car_m_d\",\r\n  \"map_type\": \"interactive\",\r\n  \"output_layer_name\": \"travel_map\",\r\n  \"output_map_name\": \"travel_map\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/visualization_tool",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"visualization_tool"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
