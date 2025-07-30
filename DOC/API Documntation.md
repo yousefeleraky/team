@@ -11,12 +11,12 @@ or folium if you want interactive web map
 ### **Request body parameters**: 
 Parameter  | Type | Description
 
-`folder`  | String | contain folder name
-`file` | String | contain traveltime file name
-`column`  | String | contain column name that you want to visualize on the map
-`map_type`  | String | contain map type choose between (static/interactive)
-`outputlayer_name`  | String | contain layer name without file format
-`output_map_name`  | String | contain map name without file format
+`folder`  | String | contain folder name.
+`file` | String | contain traveltime file name.
+`column`  | String | contain column name that you want to visualize on the map.
+`map_type`  | String | contain map type choose between (static/interactive).
+`outputlayer_name`  | String | contain layer name without file format.
+`output_map_name`  | String | contain map name without file format.
 
 
 #### **Response**:
